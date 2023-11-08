@@ -19,19 +19,3 @@ jobs:
         bundle: com.moonlight_stream.Moonlight.flatpak
         manifest-path: com.moonlight_stream.Moonlight.json
         cache-key: flatpak-builder-${{ github.sha }}
-    - name: Download artifacts
-      uses: actions/download-artifact@v3
-      with:
-        path: dist
-    - name: Set current date as env variable
-      run: echo "NOW=$(date -u +'%Y-%m-%dT%H:%M:%S') UTC" >> $GITHUB_ENV
-    - name: Nightly Release
-      uses: andelf/nightly-release@main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        body: "Build date: ${{ env.NOW }}"
-        prerelease: false
-        tag_name: nightly
-        name: 'Nightly Release'
-        files: dist/*/*.flatpak

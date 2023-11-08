@@ -140,7 +140,8 @@
 			"sources": [
 				{
 					"type": "git",
-					"url": "https://github.com/moonlight-stream/moonlight-qt.git",
+					"url": "https://github.com/FrogTheFrog/moonlight-qt.git",
+					"commit": "2cdd2dea871ccb88cb851acb9460a2c743157c90",
 					"disable-shallow-clone": true
 				}
 			]
