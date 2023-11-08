@@ -141,7 +141,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/FrogTheFrog/moonlight-qt.git",
-					"commit": "2cdd2dea871ccb88cb851acb9460a2c743157c90",
+					"commit": "27f940a90b467ae1606643d56a7182bc5a5af3ea",
 					"disable-shallow-clone": true
 				}
 			]
