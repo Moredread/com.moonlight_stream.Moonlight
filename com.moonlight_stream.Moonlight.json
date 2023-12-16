@@ -216,7 +216,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"url": "https://github.com/moonlight-stream/moonlight-qt.git",
+					"url": "https://github.com/Moredread/moonlight-qt.git",
 					"disable-shallow-clone": true
 				},
 				{

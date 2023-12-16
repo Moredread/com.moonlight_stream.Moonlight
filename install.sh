@@ -6,7 +6,7 @@ tmp_file="/tmp/moonlight-nightly.flatpak";
 
 echo "Downloading nighly version"
 echo "-----"
-curl -L -o $tmp_file https://github.com/FrogTheFrog/com.moonlight_stream.Moonlight/releases/download/nightly/com.moonlight_stream.Moonlight.flatpak;
+curl -L -o $tmp_file https://github.com/Moredread/com.moonlight_stream.Moonlight/releases/download/nightly/com.moonlight_stream.Moonlight.flatpak;
 echo "-----"
 
 echo "Uninstalling old flatpak version";
